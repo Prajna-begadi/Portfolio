@@ -1,38 +1,124 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background: linear-gradient(-45deg, #85d8e3, #598cc0, #f0abe0, #e0f7fa);
+  background-size: 400% 400%;
+  animation: animatedBG 15s ease infinite;
+  color: #333;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: background 0.5s ease, color 0.5s ease;
 }
 
-.App-link {
-  color: #61dafb;
+/* ✅ Original DARK theme you liked */
+.App.dark {
+  background: linear-gradient(-45deg, #0f2027, #203a43, #111517, #0f2027);
+  background-size: 400% 400%;
+  animation: animatedBG 20s ease infinite;
+  color: #eee;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes animatedBG {
+  0% {
+    background-position: 0% 50%;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    background-position: 100% 50%;
   }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.App h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  color: #1d3557;
+}
+
+.App.dark h1 {
+  color: #fff;
+}
+
+.App p {
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.App.dark p {
+  color: #ccc;
+}
+.theme-toggle-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: inherit;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  transform: scale(1.2);
+}
+.theme-toggle-btn:focus {
+  outline: none;
+}
+.theme-toggle-btn i {
+  transition: color 0.3s ease;
+}
+.theme-toggle-btn i.fa-sun {
+  color: #f39c12;
+}
+.theme-toggle-btn i.fa-moon {
+  color: #2c3e50;
+}
+.theme-toggle-btn:hover i {
+  color: inherit;
+}
+.theme-toggle-btn:focus i {
+  color: inherit;
+}
+@media (max-width: 768px) {
+  .App h1 {
+    font-size: 2rem;
+  }
+  .App p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .App h1 {
+    font-size: 1.8rem;
+  }
+  .App p {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+  }
+  body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  background: linear-gradient(-45deg, #e0f7fa, #f1f8ff, #ffe4ec, #e0f7fa);
+  background-size: 400% 400%;
+  animation: animatedBG 15s ease infinite;
+  color: #333;
+  min-height: 100vh;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.App.dark {
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
 }

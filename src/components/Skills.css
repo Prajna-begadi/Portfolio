@@ -1,0 +1,19 @@
+.section {
+  padding: 60px 20px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+}
