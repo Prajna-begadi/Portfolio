@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Prajna-begadi/Portfolio/static/css/main.94200c62.css",
-    "main.js": "/Prajna-begadi/Portfolio/static/js/main.2fe4adba.js",
-    "static/js/453.1407b060.chunk.js": "/Prajna-begadi/Portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/profile.png": "/Prajna-begadi/Portfolio/static/media/profile.fb5015bdee2125060020.png",
-    "index.html": "/Prajna-begadi/Portfolio/index.html",
-    "main.94200c62.css.map": "/Prajna-begadi/Portfolio/static/css/main.94200c62.css.map",
-    "main.2fe4adba.js.map": "/Prajna-begadi/Portfolio/static/js/main.2fe4adba.js.map",
-    "453.1407b060.chunk.js.map": "/Prajna-begadi/Portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.94200c62.css",
+    "main.js": "/Portfolio/static/js/main.1944d082.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/profile.png": "/Portfolio/static/media/profile.fb5015bdee2125060020.png",
+    "index.html": "/Portfolio/index.html",
+    "main.94200c62.css.map": "/Portfolio/static/css/main.94200c62.css.map",
+    "main.1944d082.js.map": "/Portfolio/static/js/main.1944d082.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94200c62.css",
-    "static/js/main.2fe4adba.js"
+    "static/js/main.1944d082.js"
   ]
 }
